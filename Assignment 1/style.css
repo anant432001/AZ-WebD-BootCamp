@@ -1,0 +1,135 @@
+*, html {
+    margin:0;
+    padding:0;  
+}
+
+.top-part {
+    display: flex;
+    flex-direction: row;
+    background: #1F4482;
+    justify-content: space-around;
+    height: 592px;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 136px;
+}
+
+.top-left-element-1{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    width: 500px;
+    padding-top: 100px;
+}
+
+.top-left-element-2{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: -0.03em;
+    padding-top: 25px;
+}
+
+.top-left-element-3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 165px;
+}
+
+.top-right{
+    align-items: center;
+    padding-left: 400px;
+    padding-top: 20px;
+    width: 50%;
+}
+
+.form-element{
+    box-sizing: border-box;
+}
+
+.form-element input{
+    width: 334px;
+    height: 64px;
+    border-radius: 8px;
+    border-color: white;
+    margin: 0px;
+    border: 0px;
+}
+
+::placeholder{
+    font-family: 'Inter';
+    font-weight: 600;
+    color: #888888;
+    padding-left: 17px;
+    font-size: 20px;
+}
+
+
+.button-element{
+    padding-left: 10px;
+}
+
+.button-element button{
+    border-radius: 8px;
+    width: 216px;
+    height: 64px;
+    color: white;
+    background-color: #282828;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.top-left-element-4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+
+.top-right{
+    padding-top: 145px;
+    padding-right: 177px;
+}
+
+.logo{
+    box-shadow: 0px 0px 100px 20px white;
+    border-radius: 30px;
+    height: 288px;
+    width: 288px;
+
+}
+
+.bottom-part{
+    margin-top: 0.3px;
+    background-color: #282828;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    padding-top: 62px;
+    height: 298px;
+}
+
+.bottom-left{
+    padding-left: 158px;
+}
+
+.bottom-right{
+    text-align: right;
+    padding-right: 150px;
+}
